@@ -12,8 +12,8 @@ import com.mkyong.ws.HelloWorldImpl;
 public class HelloWorldService {
 
 	public static void main(String[] args) {
-		// запускаем веб-сервер на порту '9999' и по адресу, указанному в первом аргументе, запускаем веб-сервис, передаваемый во втором аргументе
-		Endpoint.publish("http://localhost:9999/ws/hello", new HelloWorldImpl());
+		// запускаем веб-сервер на порту '8080' и по адресу, указанному в первом аргументе, запускаем веб-сервис, передаваемый во втором аргументе
+		Endpoint.publish("http://localhost:8080/ws/hello", new HelloWorldImpl());
     }
 
 }

@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "HelloWorldImplService", targetNamespace = "http://ws.mkyong.com/", wsdlLocation = "http://localhost:9999/ws/hello?wsdl")
+@WebServiceClient(name = "HelloWorldImplService", targetNamespace = "http://ws.mkyong.com/", wsdlLocation = "http://localhost:8080/ws/hello?wsdl")
 public class HelloWorldImplService
     extends Service
 {
@@ -30,7 +30,7 @@ public class HelloWorldImplService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:9999/ws/hello?wsdl");
+            url = new URL("http://localhost:8080/ws/hello?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

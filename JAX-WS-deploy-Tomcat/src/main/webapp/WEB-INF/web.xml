@@ -7,14 +7,17 @@
         <listener-class>com.sun.xml.ws.transport.http.servlet.WSServletContextListener</listener-class>
     </listener>
 
-    <servlet>
-        <servlet-name>greeting</servlet-name>
-        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>greeting</servlet-name>
-        <url-pattern>/greeting</url-pattern>
-    </servlet-mapping>
+    <!--этот сервлет уже описывается в 'endpoint'...'sun-jaxws.xml' -->
+    <!--заменяет Endpoint publisher: -->
+    <!--Endpoint.publish("http://localhost:9999/ws/hello", new HelloWorldImpl()); -->
+    <!--<servlet>-->
+        <!--<servlet-name>hello</servlet-name>-->
+        <!--<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>hello</servlet-name>-->
+        <!--<url-pattern>/hello</url-pattern>-->
+    <!--</servlet-mapping>-->
 
     <session-config>
         <session-timeout>30</session-timeout>

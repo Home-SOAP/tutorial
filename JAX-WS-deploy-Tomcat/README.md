@@ -18,11 +18,11 @@
 
 
 - PORT: `8080`
-- BUILD-NAME: `jaxws-tomcat`
-- URL: [http://localhost:8080/jaxws-tomcat/greeting?wsdl](http://localhost:8080/jaxws-tomcat/greeting?wsdl) ([http://localhost:8080/jaxws-tomcat/greeting](http://localhost:8080/jaxws-tomcat/greeting))
+- BUILD-NAME: `ws`
+- URL: [http://localhost:8080/ws/hello?wsdl](http://localhost:8080/ws/hello?wsdl) ([http://localhost:8080/ws/hello](http://localhost:8080/ws/hello))
+- run 'ws' to Tomcat
 - `cd C:\Program Files (x86)\Java\jdk1.8.0_31\bin`
-- `wsimport -d D:\IdeaProjects\twinwingames\PROD\____\src http://localhost:8080/jaxws-tomcat/greeting?wsdl -Xnocompile`
-
+- `wsimport -d D:\IdeaProjects\twinwingames\PROD\tutorial\JAX-WS-HelloWorld-Tomcat\WebClient\src http://localhost:8080/ws/hello?wsdl -Xnocompile`
 
 
 https://examples.javacodegeeks.com/enterprise-java/jws/jax-ws-web-services-on-tomcat
