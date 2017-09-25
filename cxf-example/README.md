@@ -1,0 +1,12 @@
+?????? ????????????? `Apache CXF`
+=================================
+[SOAP(JAX-WS), REST(JAX-RS), Spring](http://exampledriven.wordpress.com/2012/10/03/cxf-example-soapjax-ws-restjax-rs-spring)
+
+This project demonstrates how to build a simple CXF webservice using SOAP (JAX-WS) or REST (JAX-RS). Additionally it is using 
+ - CXF proxy clients for SOAP and REST
+ - Spring Security
+ - Spring bean validation, JSR 303
+
+The project can be started up in two ways:
+* `mvn jetty:run` then open [http://localhost:8080](http://localhost:8080)
+* `mvn tomcat:run` then open [http://localhost:9999/cxfexample/](http://localhost:9999/cxfexample/)
