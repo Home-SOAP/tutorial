@@ -1,4 +1,4 @@
-?????? ????????????? `Apache CXF`
+Пример использования `Apache CXF`
 =================================
 [SOAP(JAX-WS), REST(JAX-RS), Spring](http://exampledriven.wordpress.com/2012/10/03/cxf-example-soapjax-ws-restjax-rs-spring)
 
